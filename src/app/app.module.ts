@@ -1,5 +1,6 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import {AppComponent} from './app.component';
 
@@ -11,6 +12,10 @@ import {ContractCardComponent} from "./contracts/components/contract-card/contra
 import {HomeComponent} from './home/pages/home/home.component';
 import {ProfileComponent} from './profile/pages/profile/profile.component';
 import {SupportComponent} from './support/pages/support/support.component';
+import { LoginComponent} from "./LoginStart/pages/login/login.component";
+import { RegistroComponent} from "./LoginStart/pages/registro/registro.component";
+import { RegistroPaso2Component} from "./LoginStart/pages/registro-paso2/registro-paso2.component";
+import { RegistroPaso3Component} from "./LoginStart/pages/registro-paso3/registro-paso3.component";
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatTabsModule} from "@angular/material/tabs";
@@ -37,6 +42,10 @@ import { HistoryCardComponent } from './home/components/history-card/history-car
     SupportComponent,
     ServiceCardComponent,
     HistoryCardComponent,
+    LoginComponent,
+    RegistroComponent,
+    RegistroPaso2Component,
+    RegistroPaso3Component
   ],
   imports: [
     BrowserModule,
@@ -50,7 +59,9 @@ import { HistoryCardComponent } from './home/components/history-card/history-car
     RouterOutlet,
     MatToolbarModule,
     RouterLink,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
