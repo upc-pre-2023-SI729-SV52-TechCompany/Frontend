@@ -27,6 +27,8 @@ import {MatBadgeModule} from "@angular/material/badge";
 import {MatToolbarModule} from "@angular/material/toolbar";
 
 import {RouterLink, RouterOutlet} from "@angular/router";
+import { ServiceCardComponent } from './home/components/service-card/service-card.component';
+import { HistoryCardComponent } from './home/components/history-card/history-card.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +39,8 @@ import {RouterLink, RouterOutlet} from "@angular/router";
     HomeComponent,
     ProfileComponent,
     SupportComponent,
+    ServiceCardComponent,
+    HistoryCardComponent,
     LoginComponent,
     RegistroComponent,
     RegistroPaso2Component,
