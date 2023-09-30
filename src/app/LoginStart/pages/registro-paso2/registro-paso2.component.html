@@ -1,0 +1,68 @@
+<div class="container">
+  <div class="registro-content">
+    <img src="fastporte-logo.png" alt="Logo" class="welcome-image">
+    <h2 class="welcome-title">Fill in Your User Information</h2>
+    <div class="registro-box">
+  <form [formGroup]="registroPaso2Form" (ngSubmit)="onSubmit()">
+    <div class="registro-column">
+      <div class="form-group">
+        <input type="text" id="fullName" formControlName="fullName" class="form-control" required placeholder="Full Name">
+      </div>
+      <div class="form-group">
+        <input type="date" id="birthdate" formControlName="birthdate" class="form-control" required placeholder="Date of Birth">
+      </div>
+      <div class="form-group">
+        <input type="text" id="idNumber" formControlName="idNumber" class="form-control" required placeholder="Identify Card">
+      </div>
+      <div class="registro-column">
+        <div class="form-group">
+          <input type="text" id="country" formControlName="country" class="form-control" required placeholder="Country">
+        </div>
+        <div class="form-group">
+          <input type="tel" id="phoneNumber" formControlName="phoneNumber" class="form-control" required placeholder="Phone Number">
+        </div>
+        <div class="file-upload">
+          <!-- Botón para cargar el documento CV -->
+          <label for="cvDocument" class="file-upload">
+            <input
+                    type="file"
+                    id="cvDocument"
+                    formControlName="cvDocument"
+                    accept=".doc,.docx,.pdf"
+                    (change)="onCVDocumentChange($event)"
+            />
+            <span>Upload CV</span>
+          </label>
+          <!-- Nombre del archivo seleccionado (opcional) -->
+          <div *ngIf="cvDocumentName">
+            {{ cvDocumentName }}
+          </div>
+        </div>
+      </div>
+      <div class="registro-column">
+    <div class="profile-photo">
+      <!-- Icono de usuario -->
+      <img src="user-icon.jpg" alt="User Icon" class="user-icon">
+      <!-- Botón para cargar foto de perfil -->
+      <label for="profilePhoto" class="file-upload">
+        <input
+                type="file"
+                id="profilePhoto"
+                formControlName="profilePhoto"
+                accept="image/*"
+                (change)="onPhotoChange($event)"
+        />
+        <span>Upload Photo</span>
+      </label>
+      <!-- Vista previa de la foto de perfil (opcional) -->
+      <div *ngIf="profilePreviewUrl">
+        <img [src]="profilePreviewUrl" alt="Profile Preview" class="preview-image">
+      </div>
+    </div>
+    </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Continuar</button>
+  </form>
+</div>
+  </div>
+</div>
