@@ -1,0 +1,22 @@
+<div>
+  <mat-tab-group >
+    <mat-tab label="Offers">
+      <h1>Offer Information</h1>
+      <div class="list-contracts">
+        <app-contract-card *ngFor="let i of contracts.slice(0, 10)"></app-contract-card>
+      </div>
+    </mat-tab>
+    <mat-tab label="Pending Contracts">
+      <h1>Pending contracts</h1>
+      <div class="list-contracts">
+        <app-contract-card *ngFor="let i of contracts.slice(0, 10)"></app-contract-card>
+      </div>
+    </mat-tab>
+    <mat-tab label="History">
+      <h1>Contracts History</h1>
+      <div class="list-contracts">
+        <app-contract-card *ngFor="let i of contracts.slice(0, 10)"></app-contract-card>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>
