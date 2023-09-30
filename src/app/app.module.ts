@@ -1,5 +1,6 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import {AppComponent} from './app.component';
 
@@ -11,6 +12,10 @@ import {ContractCardComponent} from "./contracts/components/contract-card/contra
 import {HomeComponent} from './home/pages/home/home.component';
 import {ProfileComponent} from './profile/pages/profile/profile.component';
 import {SupportComponent} from './support/pages/support/support.component';
+import { LoginComponent} from "./LoginStart/pages/login/login.component";
+import { RegistroComponent} from "./LoginStart/pages/registro/registro.component";
+import { RegistroPaso2Component} from "./LoginStart/pages/registro-paso2/registro-paso2.component";
+import { RegistroPaso3Component} from "./LoginStart/pages/registro-paso3/registro-paso3.component";
 
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatTabsModule} from "@angular/material/tabs";
@@ -22,8 +27,6 @@ import {MatBadgeModule} from "@angular/material/badge";
 import {MatToolbarModule} from "@angular/material/toolbar";
 
 import {RouterLink, RouterOutlet} from "@angular/router";
-import { ServiceCardComponent } from './home/components/service-card/service-card.component';
-import { HistoryCardComponent } from './home/components/history-card/history-card.component';
 
 @NgModule({
   declarations: [
@@ -34,8 +37,10 @@ import { HistoryCardComponent } from './home/components/history-card/history-car
     HomeComponent,
     ProfileComponent,
     SupportComponent,
-    ServiceCardComponent,
-    HistoryCardComponent
+    LoginComponent,
+    RegistroComponent,
+    RegistroPaso2Component,
+    RegistroPaso3Component
   ],
   imports: [
     BrowserModule,
@@ -49,7 +54,9 @@ import { HistoryCardComponent } from './home/components/history-card/history-car
     RouterOutlet,
     MatToolbarModule,
     RouterLink,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

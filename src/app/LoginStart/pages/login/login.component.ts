@@ -49,7 +49,7 @@ export class LoginComponent implements OnInit {
 
         if (email === registeredEmail && password === registeredPassword) {
             // Autenticación exitosa, redirige a la página de inicio
-            this.router.navigate(['/inicio']);
+            this.router.navigate(['/home']);
         } else {
             // Autenticación fallida, muestra un mensaje de error
             this.loginFailed = true;
