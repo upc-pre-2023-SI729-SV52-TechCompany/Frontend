@@ -10,9 +10,17 @@
   display: flex;
   align-items: center;
 }
+.color{
+  background-color:#0f15a3 ;
+}
+h1,h2{
+  color: #ffffff;
+}
 
 .logo img {
-  margin-right: 8px;
+  width: 70px; /* Tamaño del logotipo */
+  height: auto; /* Ajustar la altura automáticamente */
+  margin-right: 10px
 }
 
 .navbar {
@@ -41,6 +49,11 @@
   text-decoration: none;
   font-weight: bold;
 }
+.navbar a:hover {
+  text-decoration: underline; /* Subrayado al pasar el mouse */
+  color: aquamarine;
+}
+
 
 .notification button {
   margin-left: 16px;
