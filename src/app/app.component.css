@@ -1,0 +1,38 @@
+/* Estilos para la barra de herramientas */
+.mat-toolbar-row {
+  justify-content: space-between; /* Espacio entre elementos en la fila */
+  align-items: center; /* Centrar verticalmente los elementos */
+  padding: 8px 16px; /* Añadir espaciado interior */
+}
+
+/* Estilos para el logotipo y el título */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  margin-right: 8px; /* Espaciado a la derecha de la imagen */
+}
+
+/* Estilos para los enlaces de navegación */
+.navbar ul {
+  list-style: none; /* Quitar viñetas de la lista */
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline; /* Mostrar en línea horizontalmente */
+  margin-right: 20px; /* Espaciado a la derecha entre elementos de navegación */
+}
+
+.navbar a {
+  text-decoration: none; /* Quitar subrayado de enlaces */
+  font-weight: bold; /* Texto en negrita */
+}
+
+/* Estilos para el botón de notificaciones */
+.notification button {
+  margin-left: 16px; /* Espaciado a la izquierda del botón de notificaciones */
+}
