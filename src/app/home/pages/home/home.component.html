@@ -1,1 +1,23 @@
 <p>home works!</p>
+
+<!-- Muestra los servicios -->
+<div class="service-container">
+  <app-service-card
+    *ngFor="let service of servicesToShow"
+    [serviceName]="service.serviceName"
+    [serviceType]="service.serviceType"
+    [vehicleType]="service.vehicleType"
+    [serviceUrl]="service.serviceUrl"
+  ></app-service-card>
+</div>
+
+<!-- Muestra el historial -->
+<div class="history-container">
+  <app-history-card
+    *ngFor="let history of historyToShow"
+    [name]="history.name"
+    [fromAddress]="history.fromAddress"
+    [toAddress]="history.toAddress"
+  ></app-history-card>
+</div>
+
