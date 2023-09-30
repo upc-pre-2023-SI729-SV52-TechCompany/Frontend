@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./contracts.component.css']
 })
 export class ContractsComponent {
-  contracts = [1,2,3,4,5];
+  contracts = [1,2,3,4,5,6]
 }
