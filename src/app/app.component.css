@@ -1,38 +1,47 @@
-/* Estilos para la barra de herramientas */
+
 .mat-toolbar-row {
-  justify-content: space-between; /* Espacio entre elementos en la fila */
-  align-items: center; /* Centrar verticalmente los elementos */
-  padding: 8px 16px; /* Añadir espaciado interior */
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
 }
 
-/* Estilos para el logotipo y el título */
+
 .logo {
   display: flex;
   align-items: center;
 }
 
 .logo img {
-  margin-right: 8px; /* Espaciado a la derecha de la imagen */
+  margin-right: 8px;
 }
 
-/* Estilos para los enlaces de navegación */
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
 .navbar ul {
-  list-style: none; /* Quitar viñetas de la lista */
+  list-style: none;
   padding: 0;
   margin: 0;
 }
 
+.navbar-name{
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+}
+
 .navbar li {
-  display: inline; /* Mostrar en línea horizontalmente */
-  margin-right: 20px; /* Espaciado a la derecha entre elementos de navegación */
+  display: inline;
+  margin-right: 20px;
 }
 
 .navbar a {
-  text-decoration: none; /* Quitar subrayado de enlaces */
-  font-weight: bold; /* Texto en negrita */
+  text-decoration: none;
+  font-weight: bold;
 }
 
-/* Estilos para el botón de notificaciones */
 .notification button {
-  margin-left: 16px; /* Espaciado a la izquierda del botón de notificaciones */
+  margin-left: 16px;
 }
