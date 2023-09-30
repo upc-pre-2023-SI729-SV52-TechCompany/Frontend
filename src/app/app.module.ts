@@ -25,6 +25,7 @@ import {RouterLink, RouterOutlet} from "@angular/router";
 import { ServiceCardComponent } from './home/components/service-card/service-card.component';
 import { HistoryCardComponent } from './home/components/history-card/history-card.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +36,7 @@ import { HistoryCardComponent } from './home/components/history-card/history-car
     ProfileComponent,
     SupportComponent,
     ServiceCardComponent,
-    HistoryCardComponent
+    HistoryCardComponent,
   ],
   imports: [
     BrowserModule,
