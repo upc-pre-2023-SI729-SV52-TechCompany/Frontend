@@ -6,5 +6,4 @@ import { Component } from '@angular/core';
   styleUrls: ['./search-vehicle.component.css']
 })
 export class SearchVehicleComponent {
-  contracts = [1,2,3,4,5];
 }
