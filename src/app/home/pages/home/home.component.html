@@ -1,33 +1,35 @@
-<mat-card>
-  <mat-card-header>
-    <div mat-card-avatar class="example-header-image"></div>
-    <mat-card-title>
-      Hi, {{username}}
-    </mat-card-title>
-    <mat-card-subtitle>Gold Plan</mat-card-subtitle>
-  </mat-card-header>
-
-  <!-- Contenido adicional de tu página home -->
-</mat-card>
-
-<!-- Muestra los servicios -->
-<div class="service-container">
-  <app-service-card
-    *ngFor="let service of servicesToShow"
-    [serviceName]="service.serviceName"
-    [serviceType]="service.serviceType"
-    [vehicleType]="service.vehicleType"
-    [serviceUrl]="service.serviceUrl"
-  ></app-service-card>
+<div class="header-content">
+  <mat-card>
+    <mat-card-header>
+      <div mat-card-avatar class="example-header-image"></div>
+      <mat-card-title>
+        Hi, {{ username }}
+      </mat-card-title>
+      <mat-card-subtitle>Gold Plan</mat-card-subtitle>
+    </mat-card-header>
+  </mat-card>
 </div>
 
-<!-- Muestra el historial -->
-<div class="history-container">
-  <app-history-card
-    *ngFor="let history of historyToShow"
-    [name]="history.name"
-    [fromAddress]="history.fromAddress"
-    [toAddress]="history.toAddress"
-  ></app-history-card>
-</div>
+<div class="container">
+  <div class="left-container">
+    <h2>Popular Drivers</h2>
+    <app-service-card
+      *ngFor="let service of servicesToShow"
+      [serviceName]="service.serviceName"
+      [serviceType]="service.serviceType"
+      [vehicleType]="service.vehicleType"
+      [serviceUrl]="service.serviceUrl"
+    ></app-service-card>
+  </div>
 
+  <div class="right-container">
+    <h2>Las Contracts</h2>
+    <!-- Muestra el historial -->
+    <app-history-card
+      *ngFor="let history of historyToShow"
+      [name]="history.name"
+      [fromAddress]="history.fromAddress"
+      [toAddress]="history.toAddress"
+    ></app-history-card>
+  </div>
+</div>
