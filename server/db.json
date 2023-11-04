@@ -1,0 +1,106 @@
+{
+  "companies": [
+    {
+      "email": "miguel@gmail.com",
+      "password": "123456",
+      "fullName": "Miguel Gomez Castro",
+      "Celular": "950345876",
+      "birthdate": "1987-04-13",
+      "age": "36",
+      "idNumber": "08067629",
+      "country": "Lima, Perú",
+      "photo": "https://cdn2.atraccion360.com/media/aa/styles/gallerie/public/images/2019/05/chofer01.jpg",
+      "job": "Tourism Driver in \"Tourism Peru\"",
+      "time_experience": "5 years",
+      "license": "https://drive.google.com/file/d/1Pi4fnBZSzESUnuDvnLTGSfSIRaj0e5y-/view?usp=drive_link",
+      "soat": "https://drive.google.com/file/d/1NaA6Qwe7NZmVvppqaELJYLEsk_xE4IcQ/view?usp=drive_link",
+      "property_document": "https://drive.google.com/file/d/1jAf-NZ1DRHP2yic5nk4GJ6lxpdCdj3io/view?usp=drive_link",
+      "certificate": "https://drive.google.com/file/d/13tGshbPWpJCx8s7ZtZTPgqeXHvGaS7ym/view?usp=drive_link",
+      "photovehicle": "https://blog.reparacion-vehiculos.es/hubfs/Vehiculo%20SUV.png",
+      "photovehicle2": "https://jktornel.com.mx/wp-content/uploads/2021/07/shutterstock_1383297227-e1625251386245.jpg",
+      "user_name": "Miguel Gomez",
+      "user_description": "Hola, mi nombre es Miguel, tengo 36 años y me he unido a esta aplicación para ofrecer mis servicios de transporte. Como conductor, poseo un vehículo Range Rover, un automóvil que considero una combinación perfecta de lujo y capacidad todoterreno. Mi objetivo es brindar un servicio de transporte de alta calidad y comodidad a los usuarios de esta aplicación.\n\nCon mi amplia experiencia en la conducción y mi vehículo de gama alta, estoy comprometido a proporcionar un viaje seguro y cómodo para mis pasajeros. Mi Range Rover está equipado con todas las características necesarias para hacer que el trayecto sea agradable, ya sea un viaje corto por la ciudad o un desplazamiento más largo.",
+      "id": 1
+    },
+    {
+      "email": "mariogomez@gmail.com",
+      "password": "123456",
+      "fullName": "Mario Andy Gomez Gutierrez",
+      "Celular": "945678934",
+      "birthdate": "1982-10-10",
+      "age": "41",
+      "idNumber": "71345698",
+      "country": "Lima, Perú",
+      "photo": "https://raw.githubusercontent.com/upc-pre-2023-SI729-SV52-TechCompany/LandingPage-V1/main/assets/img/testimonials/testimonials-3.jpg?raw=true",
+      "job": "Independient Tourism Driver in Lima",
+      "time_experience": "10 years",
+      "license": "https://drive.google.com/file/d/1m2ap0_doa6JD0OQcmg1nz9e13ZZMEBTp/view?usp=drive_link",
+      "soat": "https://drive.google.com/file/d/1XUGL4drX_cv7ZKjY0fLtnVudZr4JZt7y/view?usp=drive_link",
+      "property_document": "https://drive.google.com/file/d/1sSam4tueCEdE3tANWbiwNyQ7aJBmtjWR/view?usp=drive_link",
+      "certificate": "https://drive.google.com/file/d/1TvgskPH6B_ZB_pcubOqhmNdZXrp6bQtQ/view?usp=drive_link",
+      "photovehicle": "https://www.esan.edu.pe/images/blog/2018/08/29/1500x844-factores-vehiculo-carga.jpg",
+      "photovehicle2": "https://espaciocoches.com/wp-content/uploads/2008/02/camion-carga-600x480.jpg",
+      "user_name": "Mario Gomez",
+      "user_description": "Hola, mi nombre es Mario y tengo 41 años. Estoy emocionado de unirme a esta aplicación para ofrecer mis servicios de transporte utilizando mi camión de carga. Con años de experiencia en el sector de transporte de carga, he decidido aprovechar mi conocimiento y recursos para ayudar a quienes necesiten trasladar mercancías de manera eficiente y segura.\n\nMi camión de carga es una herramienta confiable y robusta que me permite transportar diversos tipos de mercancías, ya sea mudanzas, suministros comerciales o cualquier otro tipo de carga. Estoy comprometido a proporcionar un servicio confiable y puntual, asegurándome de que las mercancías lleguen a su destino en las mejores condiciones posibles.",
+      "id": 2
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "email": "gerardoochoa@gmail.com",
+      "password": "123456",
+      "fullname": "Gerardo Ochoa Lopez",
+      "birthdate": "1990-10-21",
+      "idNumber": "71345698",
+      "celular": "980700678",
+      "country": "Lima, Perú",
+      "photo": "https://img.freepik.com/foto-gratis/hombre-joven-guapo-nuevo-corte-pelo-estilo_176420-19636.jpg",
+      "user_name": "Gerardo Ochoa",
+      "user_description": "Hola, soy Gerardo, tengo 36 años y soy un cliente que está en busca de un servicio de transporte para una ruta larga. En mi caso, soy un apasionado de los viajes por carretera y ocasionalmente realizo viajes de larga distancia por placer. Mi deseo es explorar nuevas regiones y descubrir lugares remotos y hermosos.\\n\\nCuando busco un servicio de transporte para una ruta larga, la seguridad y la comodidad son mis principales preocupaciones. Estaré pasando muchas horas en la carretera, por lo que es esencial que el vehículo esté en óptimas condiciones y cuente con todas las comodidades necesarias para que mi viaje sea agradable."
+    },
+    {
+      "email": "mateo@gmail.com",
+      "password": "123456",
+      "fullname": "Mateo Lopez Rojas",
+      "celular": "950345876",
+      "birthdate": "1980-08-13",
+      "idNumber": "71235678",
+      "country": "Ica, Perú",
+      "photo": "https://img.europapress.es/fotoweb/fotonoticia_20150331134913-15031252329_420.jpg",
+      "user_name": "Mateo Lopez",
+      "user_description": "Hola, mi nombre es Mateo, y tengo 43 años. Soy un cliente que valora mucho la eficiencia y la tranquilidad en los servicios de transporte. Como emprendedor, gestiono un negocio de comercio electrónico y, en consecuencia, la logística de mis productos es esencial para mi operación. FastPorte me ha llamado la atención por su reputación de confiabilidad y su historial probado en el transporte eficiente de mercancías. Además, aprecio la flexibilidad que ofrecen para adaptarse a mis necesidades específicas, ya que, en ocasiones, requiero entregas programadas o características adicionales para ciertos envíos.",
+      "id": 2
+    }
+  ],
+  "contracts": [
+    {
+      "clientId": "1",
+      "companyId": 1,
+      "fechaHoy": "2023-11-04",
+      "servicios": "Turismo",
+      "direccionEntrega": "Monterrico",
+      "direccionDestino": "Miraflores",
+      "fechaServicio": "2023-11-11",
+      "horaServicio": "10:00",
+      "numeroTarjeta": "1234567890123456",
+      "cvvTarjeta": "123",
+      "vencimientoTarjeta": "23/25",
+      "id": 1
+    },
+    {
+      "clientId": "2",
+      "companyId": 2,
+      "fechaHoy": "2023-11-04",
+      "servicios": "Carga",
+      "direccionEntrega": "Miraflores",
+      "direccionDestino": "Santa Anita",
+      "fechaServicio": "2023-11-07",
+      "horaServicio": "11:00",
+      "numeroTarjeta": "1234567890123456",
+      "cvvTarjeta": "123",
+      "vencimientoTarjeta": "23/25",
+      "id": 2
+    }
+  ]
+}

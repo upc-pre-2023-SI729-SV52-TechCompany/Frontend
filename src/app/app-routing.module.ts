@@ -1,32 +1,34 @@
-import {NgModule} from '@angular/core';
-import {RouterModule, Routes} from '@angular/router';
-import {HomeComponent} from "./home/pages/home/home.component";
-import {ProfileComponent} from "./profile/pages/profile/profile.component";
-import {ContractsComponent} from "./contracts/pages/contracts/contracts.component";
-import {SupportComponent} from "./support/pages/support/support.component";
-import {SearchVehicleComponent} from "./search-vehicle/pages/search-vehicle/search-vehicle.component";
-import { LoginComponent} from "./LoginStart/pages/login/login.component";
-import { RegistroComponent} from "./LoginStart/pages/registro/registro.component";
-import { RegistroPaso2Component} from "./LoginStart/pages/registro-paso2/registro-paso2.component";
-import { RegistroPaso3Component} from "./LoginStart/pages/registro-paso3/registro-paso3.component";
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { LoginFormComponent } from './LoginStart/pages/login/login-form.component';
+import { ClientFormComponent } from './LoginStart/pages/registro-cliente/registro/client-form.component';
+import { ClientForm2Component } from './LoginStart/pages/registro-cliente/registro-paso2/client-form2.component';
+import { ClientForm3Component } from './LoginStart/pages/registro-cliente/registro-paso3/client-form3.component';
+import { CompanyFormComponent } from "./LoginStart/pages/register-company/registro/company-form.component";
+import { CompanyForm2Component } from "./LoginStart/pages/register-company/registro-paso2/company-form2.component";
+import { CompanyForm3Component } from "./LoginStart/pages/register-company/registro-paso3/company-form3.component";
+import { CompanyForm4Component } from "./LoginStart/pages/register-company/registro-paso4/company-form4.component";
+import { CompanyForm5Component } from "./LoginStart/pages/register-company/registro-paso5/company-form5.component";
+import { ClientSettingsComponent } from "./settings/client-settings/client-settings.component";
+import { CompanySettingsComponent } from "./settings/company-settings/company-settings.component";
 
 const routes: Routes = [
-  {path: 'home', component: HomeComponent},
-  {path: 'profile', component: ProfileComponent},
-  {path: 'search-vehicle', component: SearchVehicleComponent},
-  {path: 'contracts', component: ContractsComponent},
-  {path: 'support', component: SupportComponent},
-  { path: 'login', component: LoginComponent },
-  { path: 'registro', component: RegistroComponent },
-  { path: 'registro/paso2', component: RegistroPaso2Component },
-  { path: 'registro/paso3', component: RegistroPaso3Component },
-  {path: '', redirectTo: '/home', pathMatch: 'full'},
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
+  { path: 'login', component: LoginFormComponent },
+  { path: 'registro', component: ClientFormComponent },
+  { path: 'registro/paso2', component: ClientForm2Component },
+  { path: 'registro/paso3', component: ClientForm3Component },
+  { path: 'registrocomp', component: CompanyFormComponent },
+  { path: 'registrocomp/paso2', component: CompanyForm2Component },
+  { path: 'registrocomp/paso3', component: CompanyForm3Component },
+  { path: 'registrocomp/paso4', component: CompanyForm4Component },
+  { path: 'registrocomp/paso5', component: CompanyForm5Component },
+  { path: 'client-settings/:id', component: ClientSettingsComponent },
+  { path: 'company-settings/:id', component: CompanySettingsComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
-  providers: []
+  exports: [RouterModule]
 })
-export class AppRoutingModule {
-}
+export class AppRoutingModule { }
